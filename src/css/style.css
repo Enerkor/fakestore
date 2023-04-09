@@ -1,0 +1,49 @@
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-items-center{
+    justify-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.header .brand-logo {
+    position: static;
+    font-size: 1.7rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.cards .card {
+    width: 24% !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+#modal1 {
+    width: 30%;
+}
+
